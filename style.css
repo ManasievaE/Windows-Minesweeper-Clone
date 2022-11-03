@@ -1,0 +1,96 @@
+body {
+  background-color: lightseagreen;
+}
+.container {
+  align-content: center;
+  margin: 0 auto;
+}
+#header {
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 100px;
+  background-color: #dcd6bc;
+  margin: 100px auto 0 auto;
+}
+#timer,
+#bomb-counter {
+  width: 20%;
+  font-size: 35px;
+  color: red;
+  background-color: black;
+  text-align: center;
+  padding: 4px 4px 0 7px;
+  line-height: 1em;
+}
+#reset {
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  border-top: 2px solid #ffffff;
+  border-right: 2px solid #7b7b7b;
+  border-bottom: 2px solid #7b7b7b;
+  border-left: 2px solid #ffffff;
+}
+.grid {
+  height: 350px;
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #dcd6bc;
+  border: 10px solid #dcd6bc;
+  margin: 0 auto;
+}
+div {
+  font-size: 25px;
+  text-align: center;
+}
+.not-bomb,
+.bomb {
+  height: 35px;
+  width: 35px;
+  border: 5px solid;
+  border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
+  box-sizing: border-box;
+}
+.checked {
+  height: 35px;
+  width: 35px;
+  border: 2px solid;
+  background-color: #cecab7;
+  border-color: #9c998d;
+  box-sizing: border-box;
+}
+
+.one,
+.five {
+  color: blue;
+  font-weight: bold;
+}
+
+.two,
+.six {
+  color: green;
+  font-weight: bold;
+}
+
+.three,
+.seven {
+  color: red;
+  font-weight: bold;
+}
+
+.four,
+.eight {
+  color: purple;
+  font-weight: bold;
+}
+
+#result {
+  color: #e76346;
+  font-weight: bold;
+  margin-top: 50px;
+}
